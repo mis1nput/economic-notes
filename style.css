@@ -1,0 +1,10 @@
+html {
+  height: 100%;
+  width: 100%;
+  color:#ff0000
+}
+body {
+  background-image: url(Images/wallpaper.jpeg);
+  background-size: cover;
+  background-repeat: repeat;
+}

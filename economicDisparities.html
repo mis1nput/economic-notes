@@ -1,0 +1,78 @@
+<nav>
+  <li><a href="index.html" style="color: darkviolet;">Home</a></li>
+</nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+  <h2 style="color: mediumpurple;">Economic Disparities</h2>
+  <p><b><i>Today we will begin learning about wealth distribution and inequality</i></b></p>
+  <ul>
+    <li>Poverty and its Problems</li>
+    <p></p>
+    <ul>
+      <li><b>Poverty threshold: </b> the minimum annual income that is considered adequate to purchase the necessities of life. Incomes below this amount are considered “poor.”  For an individual in 2023, the poverty threshold was $15,060 per year. Four a family of four it was $31,200.  [www.hhs.gov] 
+      The poverty rate is the percentage of the population with incomes below the poverty threshold. In the USA, the poverty rate in 2022 was 11.5%  [www.census.gov]</li>
+      <p></p>
+    <li><b>There are serveral Co-relating factors that lead to poverty: </b> education level; proficiency in language; race and ethnicity; etc.  These are trends, but not necessarily causes. The leading cause of poverty in the USA, however, is unemployment–when an income earner loses their job and cannot find work soon thereafter.</li>
+      <p></p>
+    </ul>
+    <li>Economic Inequality</li>
+    <p></p>
+    <ul>
+      <li>Income Distribution</li>
+      <li>Look at the difference between mean incomeand median income. </li>
+      <li>These numbers show that income is not distributed equally in the United States.</li>
+    </ul>
+    <p></p>
+    <li>Inequality in income, or wealth, distribution can also be show visually with a model, just like market interactions are with demand and supply models. Income distribution can be show in a model called a Lorenz Curve, which compares percentage of income earned versus percent of the population (in quintiles). See the next Slide for what a Lorenz Curve looks like.</li>
+    <p></p>
+    <li>The Lorenz Curve</li>
+    <p></p>
+    <ul>
+      <li>The Lorenz Curve indicates the percentage of all income received by the poorest members of the population, starting from the poorest 0% who receive 0% of the income and ending with the poorest 100% who receive 100% of the income. If everyone received the same income, the Lorenz curve would follow the line of equality. Income inequality causes the Lorenz curve to fall below the line of equality.</li>
+      <p></p>
+    </ul>
+    <li>The Gini Coefficient</li>
+    <p></p>
+      <ul>
+        <li>It’s often convenient to have a single number that summarizes a country’s level of income inequality. The Gini Coefficient, the most widely used measure of inequality, is the ratio of area A in Figure 78.2, between the line of equality and the Lorenz curve, to area B, below the line of equality. In other words, the Gini coefficient = A / (A + B)</li>
+        <p></p>
+      </ul>
+    <img src="Images/gini_coeifeicint.jpg">
+    <p></p>
+    <button onclick="downloadImage2()">Download</button>
+
+    <script>
+    function downloadImage2() {
+      const imageSrc = 'Images/gini_coeifeicint.jpg'; // Update the path to your image file
+
+      const link = document.createElement('a');
+      link.href = imageSrc;
+      link.download = 'Images/gini_coeifeicint.jpg';
+      link.click();
+    }
+    </script>
+  <p></p>
+    <li>A country with a perfectly equal distribution of income would have a Gini coefficient of 0, because the Lorenz Curve would follow the line of equality, and area A would be zero. At the other extreme, the highest possible value for the Gini coefficient is 1—the level it would attain if all of a country’s income went to just one person. In that case, area A would equal area A + B, because the Lorenz Curve would lie along the horizontal axis until the richest person was included, at which point it would jump up to a height of 100%.</li>
+    <p></p>
+    <li>Aside from a few countries in Africa, the highest levels of income inequality are found in Latin America; countries with a high degree of inequality, such as Brazil, have Gini coefficients close to 0.6. The most equal distributions of income are in Europe, especially in Scandinavia; countries with very equal income distributions, such as Sweden, have Gini coefficients around 0.25. Compared to other wealthy countries, the United States, with a Gini coefficient of 0.398 in 2021, has a somewhat high inequality, though it isn’t as unequal as in Latin America.</li>
+    <p></p>
+    <img src="Images/inequity-around-the-world.jpg" style="max-width: 50%;">
+    <p></p>
+<button onclick="downloadImage()">Download</button>
+  </ul>
+<script>
+function downloadImage() {
+  const imageSrc = 'Images/inequity-around-the-world.jpg'; // Update the path to your image file
+
+  const link = document.createElement('a');
+  link.href = imageSrc;
+  link.download = 'Images/inequity-around-the-world.jpg';
+  link.click();
+}
+
+</script>
